@@ -26,4 +26,4 @@ const Tasks = ({data}) => {
   )
 }
 
-export default Tasks
+export default Tasks;
