@@ -35,7 +35,7 @@ const CreateTask = () => {
                 console.log("Task assigned to:", employee.name); // Debugging log
                 return {
                   ...employee,
-                  tasks: [...(employee.tasks || []), newTask], // Ensure `tasks` exists
+                  tasks: [...(employee.tasks || []), newTask], 
                   taskCounts: {
                     ...employee.taskCounts,
                     new: (employee.taskCounts?.new || 0) + 1,
